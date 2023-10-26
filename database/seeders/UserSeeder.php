@@ -20,6 +20,9 @@ class UserSeeder extends Seeder
             'email' => 'kharisfatur0933@gmail.com',
             'email_verified_at'  => now(),
             'password' => Hash::make('123456'),
+            'role' => 'admin',
+            'phone' => '6282128056082',
+            'bio' => 'flutter dev',
         ]);
     }
 }
